@@ -4,7 +4,7 @@
 #include <gl/GL.h>
 #include "Graphics/OpenGL/Shaders/FragmentShader.h"
 #include "Graphics/OpenGL/Shaders/VertexShader.h"
-#include "Math/Matrix4.h"
+#include "Math/Matrix4x4.h"
 
 namespace GRAPHICS
 {

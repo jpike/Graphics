@@ -3,7 +3,7 @@
 
 #include "Graphics/Camera.cpp"
 #include "Graphics/Color.cpp"
-#include "Graphics/Object3D.h"
+#include "Graphics/Object3D.cpp"
 #include "Graphics/OpenGL/GraphicsDevice.cpp"
 #include "Graphics/OpenGL/OpenGL.cpp"
 #include "Graphics/OpenGL/Renderer.cpp"

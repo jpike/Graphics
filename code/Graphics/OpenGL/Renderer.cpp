@@ -108,7 +108,8 @@ namespace OPEN_GL
         GraphicsDevice->Bind(*vertex_buffer);
 
         // SET THE TRANSFORMATION MATRICES.
-        PositionColorShaderProgram->SetUniformMatrix("world_transform", object_3D.WorldTransform);
+        MATH::Matrix4x4f world_transform = object_3D.WorldTransform();
+        PositionColorShaderProgram->SetUniformMatrix("world_transform", world_transform);
 
         MATH::Matrix4x4f camera_view_transform = Camera.ViewTransform();
         PositionColorShaderProgram->SetUniformMatrix("view_transform", camera_view_transform);
